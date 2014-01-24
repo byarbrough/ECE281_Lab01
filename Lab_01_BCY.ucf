@@ -1,0 +1,9 @@
+#this sets up the switches
+NET "A" LOC = "K18"; # Type = INPUT, Sch name = SWO
+NET "B" LOC = "H18";
+NET "C" LOC = "G18";
+
+# LED Outputs
+NET "X" LOC = "K15"; # Sch name = LDO
+NET "Y" LOC = "J15"; 
+NET "Z" LOC = "J14";
