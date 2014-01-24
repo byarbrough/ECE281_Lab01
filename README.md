@@ -5,6 +5,7 @@ ECE281_Lab01
 
 #####Truth Table
 
+![alt text](https://github.com/byarbrough/ECE281_Lab01/blob/master/TruthTable.PNG?raw=true "Truth Table")
 
 #####Simulation Results
 
@@ -16,7 +17,9 @@ ECE281_Lab01
 
 #####Analysis
 
-The simulation performed exactly as it was supposed to. Given three inputs A, B, C, the circuit produced three outputs X, Y, Z. These simulated outputs matched the truth table. What's more, this serves as a converter for a 3 bit two's compliment number.
+The simulation performed exactly as it was supposed to. Given three inputs A, B, C, the circuit produced three outputs X, Y, Z. The yellow line on the simulation results can be moved (in the GUI, not the image... clearly), this displays the inputs and outputs. These values all correspond with the truth table. This correspondence proves that the circuit schematic converts three bit two's complements, as designed.
+
+These simulated outputs matched the truth table. What's more, this serves as a converter for a 3 bit two's compliment number.
 
 X = Σ(1, 2, 3, 4)
 
