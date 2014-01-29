@@ -12,7 +12,7 @@
 -- 
 -- VHDL Test Bench Created by ISE for module: Lab1_Yarbrough
 -- 
--- Dependencies:
+-- Dependencies: will only work if the 3 bit segment of the .vhd file is uncommented
 -- 
 -- Revision:
 -- Revision 0.01 - File Created
