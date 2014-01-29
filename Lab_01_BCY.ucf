@@ -1,9 +1,29 @@
-#this sets up the switches
-NET "A" LOC = "K18"; # Type = INPUT, Sch name = SWO
-NET "B" LOC = "H18";
-NET "C" LOC = "G18";
+##this sets up the switches (3 bit)
+#NET "A" LOC = "K18"; # Type = INPUT, Sch name = SWO
+#NET "B" LOC = "H18";
+#NET "C" LOC = "G18";
+#
+## LED Outputs
+#NET "X" LOC = "K15"; # Sch name = LD0
+#NET "Y" LOC = "J15"; 
+#NET "Z" LOC = "J14";
 
-# LED Outputs
-NET "X" LOC = "K15"; # Sch name = LD0
-NET "Y" LOC = "J15"; 
-NET "Z" LOC = "J14";
+
+# 8 bit array, input sqwitches
+NET swIn<0> LOC = "R17";
+NET swIn<1> LOC = "N17";
+NET swIn<2> LOC = "L13";
+NET swIn<3> LOC = "L14";
+NET swIn<4> LOC = "K17";
+NET swIn<5> LOC = "K18";
+NET swIn<6> LOC = "H18";
+NET swIn<7> LOC = "G18";
+#output LEDs
+NET ldOut<0> LOC = "R4";
+NET ldOut<1> LOC = "F4";
+NET ldOut<2> LOC = "P15";
+NET ldOut<3> LOC = "E17";
+NET ldOut<4> LOC = "K14";
+NET ldOut<5> LOC = "K15";
+NET ldOut<6> LOC = "J15";
+NET ldOut<7> LOC = "J14";
