@@ -26,3 +26,9 @@ X = Σ(1, 2, 3, 4)
 Y = Σ(1, 2, 5, 6)
 
 Z = Σ(1, 3, 5, 7)
+
+
+####8 bit modification
+All the above considerations are for a "manual" 3 bit code. Thw switches A, B, & C input signals into the chip. These are then run through the schematic drawn above, which prdouces the output.
+
+The most current VHDL files have all of this code commented out. Instead, standard logic vectors are used to achieve an 8 bit converter. There are no signals or schematic associated with this method; rather, the vectors are cast to integers, NOTed, +1 is added to the result, and it is recast to logic vectors. The LEDs then output these logic values. This is accomplished by an 8 bit array, so the converter has a range of +127 to -128. For numbers of greater magnitude, a larger array would have to be declared.
